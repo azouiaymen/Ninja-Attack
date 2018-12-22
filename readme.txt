@@ -3,17 +3,9 @@
 *********************************************************
 
 
-Projet réalisé dans le cadre de l'ue LIFAP4
 
-///////// MEMBRES DU GROUPE /////////
-
--> KRIMI IMRAN P1610419
--> DEVILLERS ALEXANDRE P1608591
 -> AZOUI AYMEN P1612255
 
-///////// LIEN DU GIT /////////
-
-https://forge.univ-lyon1.fr/p1612255/Ninjattack
 
 ///////// COMMANDE DE COMPILATION /////////
 
