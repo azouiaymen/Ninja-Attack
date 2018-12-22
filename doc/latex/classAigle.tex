@@ -1,0 +1,74 @@
+\hypertarget{classAigle}{}\section{Aigle Class Reference}
+\label{classAigle}\index{Aigle@{Aigle}}
+
+
+Class hérité de personnage, permet de créé et gerer un aigle.  
+
+
+
+
+{\ttfamily \#include $<$Aigle.\+h$>$}
+
+Inheritance diagram for Aigle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classAigle}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAigle_af9dad7747a33fb313e13140e8e8aee03}\label{classAigle_af9dad7747a33fb313e13140e8e8aee03}} 
+\hyperlink{classAigle_af9dad7747a33fb313e13140e8e8aee03}{Aigle} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_aa02c3e1a98135b17e055ec90f017ca95}\label{classAigle_aa02c3e1a98135b17e055ec90f017ca95}} 
+\hyperlink{classAigle_aa02c3e1a98135b17e055ec90f017ca95}{Aigle} (const complex$<$ float $>$ \&pos)
+\begin{DoxyCompactList}\small\item\em Constructeur avec une zone de spawn définie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_a08b8a9b4a51cafb1be1b886858e22377}\label{classAigle_a08b8a9b4a51cafb1be1b886858e22377}} 
+\hyperlink{classAigle_a08b8a9b4a51cafb1be1b886858e22377}{$\sim$\+Aigle} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_a900320e309a3c9cd4db65df7261fd386}\label{classAigle_a900320e309a3c9cd4db65df7261fd386}} 
+void \hyperlink{classAigle_a900320e309a3c9cd4db65df7261fd386}{lance\+Tir} (complex$<$ float $>$ cible)
+\begin{DoxyCompactList}\small\item\em Lance un tir sur la cible. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_a684ff2e90acdcaa9a16b0e624fb5682e}\label{classAigle_a684ff2e90acdcaa9a16b0e624fb5682e}} 
+const \hyperlink{classTir}{Tir} $\ast$ \hyperlink{classAigle_a684ff2e90acdcaa9a16b0e624fb5682e}{get\+Tir} () const
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classTir}{Tir}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR E\+X\+I\+S\+TE U\+NE V\+E\+R\+S\+I\+ON P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_ad68e91169c5934178d27377412d2dcd1}\label{classAigle_ad68e91169c5934178d27377412d2dcd1}} 
+\hyperlink{classTir}{Tir} $\ast$ \hyperlink{classAigle_ad68e91169c5934178d27377412d2dcd1}{get\+Tir} ()
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classTir}{Tir}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_ab036868826290b7ffaa8c454d9080ed4}\label{classAigle_ab036868826290b7ffaa8c454d9080ed4}} 
+void \hyperlink{classAigle_ab036868826290b7ffaa8c454d9080ed4}{set\+Tir} (const \hyperlink{classTir}{Tir} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Permet de définir le \hyperlink{classTir}{Tir} depuis un autre pointeur de \hyperlink{classTir}{Tir}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_ad1ea2db02a6ce0f5187e56957429fabd}\label{classAigle_ad1ea2db02a6ce0f5187e56957429fabd}} 
+void \hyperlink{classAigle_ad1ea2db02a6ce0f5187e56957429fabd}{reflechis} (const \hyperlink{classEntite}{Entite} \&hero, const \hyperlink{classCarte}{Carte} \&carte)
+\begin{DoxyCompactList}\small\item\em L\textquotesingle{}IA de l\textquotesingle{}aigle, qui a en entrée l\textquotesingle{}entitée du personnage enemis (le hero), et la carte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_aa9dab2a3f99a8d0569f1b9441beba191}\label{classAigle_aa9dab2a3f99a8d0569f1b9441beba191}} 
+void \hyperlink{classAigle_aa9dab2a3f99a8d0569f1b9441beba191}{saute} ()
+\begin{DoxyCompactList}\small\item\em Permet de faire sauter l\textquotesingle{}aigle. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_a3a8a8fff377e78d1864e28cd48f1d105}\label{classAigle_a3a8a8fff377e78d1864e28cd48f1d105}} 
+void \hyperlink{classAigle_a3a8a8fff377e78d1864e28cd48f1d105}{droite} ()
+\begin{DoxyCompactList}\small\item\em Permet de déplacer l\textquotesingle{}aigle sur la droite. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_ac1621184b41d6d237aa2f30f017456c4}\label{classAigle_ac1621184b41d6d237aa2f30f017456c4}} 
+void \hyperlink{classAigle_ac1621184b41d6d237aa2f30f017456c4}{gauche} ()
+\begin{DoxyCompactList}\small\item\em Permet de déplacer l\textquotesingle{}aigle sur la gauche. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_ac0666c398925fad197474db8b6db8d05}\label{classAigle_ac0666c398925fad197474db8b6db8d05}} 
+vector$<$ \hyperlink{classSort}{Sort} $\ast$ $>$ \hyperlink{classAigle_ac0666c398925fad197474db8b6db8d05}{get\+Sort} ()
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir dans un vector de pointeur de sort les sorts de l\textquotesingle{}aigle, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR V\+E\+C\+T\+OR DE P\+O\+I\+N\+T\+E\+U\+RS. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAigle_aa99bac415bfa98a212b6b80a2a954ee8}\label{classAigle_aa99bac415bfa98a212b6b80a2a954ee8}} 
+const int \hyperlink{classAigle_aa99bac415bfa98a212b6b80a2a954ee8}{get\+Id} () const
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir l\textquotesingle{}id (un entier unique pour chaque class héritées) de cette classe fille. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class hérité de personnage, permet de créé et gerer un aigle. 
+
+\begin{DoxyAuthor}{Author}
+\{D\+E\+V\+I\+L\+L\+E\+RS Alexandre, A\+Z\+O\+UI Aymen\} 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Personnage/Aigle.\+h\item 
+src/\+Personnage/Aigle.\+cpp\end{DoxyCompactItemize}

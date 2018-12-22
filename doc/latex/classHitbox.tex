@@ -1,0 +1,82 @@
+\hypertarget{classHitbox}{}\section{Hitbox Class Reference}
+\label{classHitbox}\index{Hitbox@{Hitbox}}
+
+
+Petite class bien pratique pour gerer les colisions de hitbox.  
+
+
+
+
+{\ttfamily \#include $<$Hitbox.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classHitbox_a999b0be8486978b3dd7bcd001c7c3c03}\label{classHitbox_a999b0be8486978b3dd7bcd001c7c3c03}} 
+\hyperlink{classHitbox_a999b0be8486978b3dd7bcd001c7c3c03}{Hitbox} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par defaut. \end{DoxyCompactList}\item 
+\hyperlink{classHitbox_a2aa6b371109cab19fdf0be5819d2a978}{Hitbox} (const complex$<$ float $>$ p, const complex$<$ float $>$ ta, const int ty)
+\begin{DoxyCompactList}\small\item\em Constructeur avec initialisation de tout les paramètres passé en arguments. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHitbox_a4c871b46ca2eea27ff33788d7bac9ae5}\label{classHitbox_a4c871b46ca2eea27ff33788d7bac9ae5}} 
+const int \hyperlink{classHitbox_a4c871b46ca2eea27ff33788d7bac9ae5}{get\+Type} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHitbox_a42cf05a5ef6f7219b66dea783ac8a022}\label{classHitbox_a42cf05a5ef6f7219b66dea783ac8a022}} 
+void \hyperlink{classHitbox_a42cf05a5ef6f7219b66dea783ac8a022}{set\+Type} (const int type)
+\begin{DoxyCompactList}\small\item\em Mutateur de type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHitbox_a9b7fbe03d119560b0bebe6f002b2829b}\label{classHitbox_a9b7fbe03d119560b0bebe6f002b2829b}} 
+const complex$<$ float $>$ \& \hyperlink{classHitbox_a9b7fbe03d119560b0bebe6f002b2829b}{get\+Pos} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de pos, A\+T\+T\+E\+N\+T\+I\+ON IL E\+X\+I\+S\+TE U\+NE V\+E\+R\+S\+I\+ON N\+ON C\+O\+N\+ST P\+AR R\+E\+F\+E\+R\+E\+N\+CE. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHitbox_afef3a69f41b399da19fd2d312a9c75ff}\label{classHitbox_afef3a69f41b399da19fd2d312a9c75ff}} 
+complex$<$ float $>$ \& \hyperlink{classHitbox_afef3a69f41b399da19fd2d312a9c75ff}{get\+Pos} ()
+\begin{DoxyCompactList}\small\item\em Accesseur de pos, A\+T\+T\+E\+N\+T\+I\+ON V\+E\+R\+S\+I\+ON N\+ON C\+O\+N\+ST P\+AR R\+E\+F\+E\+R\+E\+N\+CE. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHitbox_a6fe21b25411f102b0b617054e067cd2f}\label{classHitbox_a6fe21b25411f102b0b617054e067cd2f}} 
+void \hyperlink{classHitbox_a6fe21b25411f102b0b617054e067cd2f}{set\+Pos} (const complex$<$ float $>$ \&cplx)
+\begin{DoxyCompactList}\small\item\em Mutateur de pos. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHitbox_abfcc0d822567d511a06f24c22169b955}\label{classHitbox_abfcc0d822567d511a06f24c22169b955}} 
+const complex$<$ float $>$ \& \hyperlink{classHitbox_abfcc0d822567d511a06f24c22169b955}{get\+Taille} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de taille, A\+T\+T\+E\+N\+T\+I\+ON IL E\+X\+I\+S\+TE U\+NE V\+E\+R\+S\+I\+ON N\+ON C\+O\+N\+ST P\+AR R\+E\+F\+E\+R\+E\+N\+CE. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHitbox_a078dc7c7dc9925348ad9b9db2b3d9d77}\label{classHitbox_a078dc7c7dc9925348ad9b9db2b3d9d77}} 
+complex$<$ float $>$ \& \hyperlink{classHitbox_a078dc7c7dc9925348ad9b9db2b3d9d77}{get\+Taille} ()
+\begin{DoxyCompactList}\small\item\em Accesseur de taille, A\+T\+T\+E\+N\+T\+I\+ON V\+E\+R\+S\+I\+ON N\+ON C\+O\+N\+ST P\+AR R\+E\+F\+E\+R\+E\+N\+CE. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHitbox_ac424dc12568e9c90864c09641b924635}\label{classHitbox_ac424dc12568e9c90864c09641b924635}} 
+void \hyperlink{classHitbox_ac424dc12568e9c90864c09641b924635}{set\+Taille} (const complex$<$ float $>$ \&cplx)
+\begin{DoxyCompactList}\small\item\em Mutateur de taille. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHitbox_aac265437446c2ee6b94fa03fb5e29816}\label{classHitbox_aac265437446c2ee6b94fa03fb5e29816}} 
+bool \hyperlink{classHitbox_aac265437446c2ee6b94fa03fb5e29816}{touche} (const \hyperlink{classHitbox}{Hitbox} \&hitb) const
+\begin{DoxyCompactList}\small\item\em Mutateur de taille. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Petite class bien pratique pour gerer les colisions de hitbox. 
+
+\begin{DoxyAuthor}{Author}
+\{D\+E\+V\+I\+L\+L\+E\+RS Alexandre\} 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHitbox_a2aa6b371109cab19fdf0be5819d2a978}\label{classHitbox_a2aa6b371109cab19fdf0be5819d2a978}} 
+\index{Hitbox@{Hitbox}!Hitbox@{Hitbox}}
+\index{Hitbox@{Hitbox}!Hitbox@{Hitbox}}
+\subsubsection{\texorpdfstring{Hitbox()}{Hitbox()}}
+{\footnotesize\ttfamily Hitbox\+::\+Hitbox (\begin{DoxyParamCaption}\item[{const complex$<$ float $>$}]{p,  }\item[{const complex$<$ float $>$}]{ta,  }\item[{const int}]{ty }\end{DoxyParamCaption})}
+
+
+
+Constructeur avec initialisation de tout les paramètres passé en arguments. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & pour pos \\
+\hline
+{\em ta} & pour taille \\
+\hline
+{\em ty} & pour type \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Hitbox.\+h\item 
+src/Hitbox.\+cpp\end{DoxyCompactItemize}

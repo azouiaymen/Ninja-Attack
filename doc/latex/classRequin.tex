@@ -1,0 +1,74 @@
+\hypertarget{classRequin}{}\section{Requin Class Reference}
+\label{classRequin}\index{Requin@{Requin}}
+
+
+Class hérité de personnage, permet de créé et gerer un requin.  
+
+
+
+
+{\ttfamily \#include $<$Requin.\+h$>$}
+
+Inheritance diagram for Requin\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classRequin}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classRequin_a007be05e115585753d392ee042d6c7da}\label{classRequin_a007be05e115585753d392ee042d6c7da}} 
+\hyperlink{classRequin_a007be05e115585753d392ee042d6c7da}{Requin} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a767d7d317b100a9703f4da877cefefc5}\label{classRequin_a767d7d317b100a9703f4da877cefefc5}} 
+\hyperlink{classRequin_a767d7d317b100a9703f4da877cefefc5}{Requin} (const complex$<$ float $>$ \&pos)
+\begin{DoxyCompactList}\small\item\em Constructeur avec une zone de spawn définie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a1a1f2578194c695cd46426e91253acc9}\label{classRequin_a1a1f2578194c695cd46426e91253acc9}} 
+\hyperlink{classRequin_a1a1f2578194c695cd46426e91253acc9}{$\sim$\+Requin} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a6b09831df44f213371dbc3435ec3d07b}\label{classRequin_a6b09831df44f213371dbc3435ec3d07b}} 
+void \hyperlink{classRequin_a6b09831df44f213371dbc3435ec3d07b}{lance\+Dash} (complex$<$ float $>$ cible)
+\begin{DoxyCompactList}\small\item\em Lance un dash sur la cible. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a948456af45048b3ebd137ee721e1585a}\label{classRequin_a948456af45048b3ebd137ee721e1585a}} 
+void \hyperlink{classRequin_a948456af45048b3ebd137ee721e1585a}{actualise\+Entite\+Dash} ()
+\begin{DoxyCompactList}\small\item\em Actualise l\textquotesingle{}entite du requin selon le dash. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a1ed1814371e5db1713a61c2112d6ef2c}\label{classRequin_a1ed1814371e5db1713a61c2112d6ef2c}} 
+const \hyperlink{classDash}{Dash} $\ast$ \hyperlink{classRequin_a1ed1814371e5db1713a61c2112d6ef2c}{get\+Dash} () const
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classDash}{Dash}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR E\+X\+I\+S\+TE U\+NE V\+E\+R\+S\+I\+ON P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a0ecec108d60cb463ab90074acab0affd}\label{classRequin_a0ecec108d60cb463ab90074acab0affd}} 
+\hyperlink{classDash}{Dash} $\ast$ \hyperlink{classRequin_a0ecec108d60cb463ab90074acab0affd}{get\+Dash} ()
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classDash}{Dash}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a1958b5035a593e5cc15bd1819986b5ba}\label{classRequin_a1958b5035a593e5cc15bd1819986b5ba}} 
+void \hyperlink{classRequin_a1958b5035a593e5cc15bd1819986b5ba}{set\+Dash} (const \hyperlink{classDash}{Dash} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Permet de définir le \hyperlink{classDash}{Dash} depuis un autre pointeur de \hyperlink{classDash}{Dash}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a95b9ce408a389bdaa7ae932204e8da2f}\label{classRequin_a95b9ce408a389bdaa7ae932204e8da2f}} 
+void \hyperlink{classRequin_a95b9ce408a389bdaa7ae932204e8da2f}{reflechis} (const \hyperlink{classEntite}{Entite} \&hero, const \hyperlink{classCarte}{Carte} \&carte)
+\begin{DoxyCompactList}\small\item\em L\textquotesingle{}IA de l\textquotesingle{}aigle, qui a en entrée l\textquotesingle{}entitée du personnage enemis (le hero), et la carte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a3e706c00a7af57b754451d87f0e9b728}\label{classRequin_a3e706c00a7af57b754451d87f0e9b728}} 
+void \hyperlink{classRequin_a3e706c00a7af57b754451d87f0e9b728}{droite} ()
+\begin{DoxyCompactList}\small\item\em Permet de déplacer le requin sur la droite. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a4e644ac7b3bd41912bb847a9a597d408}\label{classRequin_a4e644ac7b3bd41912bb847a9a597d408}} 
+void \hyperlink{classRequin_a4e644ac7b3bd41912bb847a9a597d408}{gauche} ()
+\begin{DoxyCompactList}\small\item\em Permet de déplacer le requin sur la gauche. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_ad6cc2b33e6a64204159bcf9cf7d2738d}\label{classRequin_ad6cc2b33e6a64204159bcf9cf7d2738d}} 
+vector$<$ \hyperlink{classSort}{Sort} $\ast$ $>$ \hyperlink{classRequin_ad6cc2b33e6a64204159bcf9cf7d2738d}{get\+Sort} ()
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir dans un vector de pointeur de sort les sorts du requin, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR V\+E\+C\+T\+OR DE P\+O\+I\+N\+T\+E\+U\+RS. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRequin_a0e3c196dff2610298fbc965247e48f8e}\label{classRequin_a0e3c196dff2610298fbc965247e48f8e}} 
+const int \hyperlink{classRequin_a0e3c196dff2610298fbc965247e48f8e}{get\+Id} () const
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir l\textquotesingle{}id (un entier unique pour chaque class héritées) de cette classe fille. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class hérité de personnage, permet de créé et gerer un requin. 
+
+\begin{DoxyAuthor}{Author}
+\{D\+E\+V\+I\+L\+L\+E\+RS Alexandre, A\+Z\+O\+UI Aymen\} 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Personnage/Requin.\+h\item 
+src/\+Personnage/Requin.\+cpp\end{DoxyCompactItemize}

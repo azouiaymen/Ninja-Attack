@@ -1,0 +1,103 @@
+\hypertarget{classJeu}{}\section{Jeu Class Reference}
+\label{classJeu}\index{Jeu@{Jeu}}
+
+
+Class principal, ou se passe tout les calculs, c\textquotesingle{}est le coeur du jeu.  
+
+
+
+
+{\ttfamily \#include $<$Jeu.\+h$>$}
+
+Inheritance diagram for Jeu\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classJeu}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classJeu_a8f03cddeacd83b0061650652ada9b860}\label{classJeu_a8f03cddeacd83b0061650652ada9b860}} 
+void \hyperlink{classJeu_a8f03cddeacd83b0061650652ada9b860}{boucle} ()
+\begin{DoxyCompactList}\small\item\em Fonction à appeler dans le main pour faire tourner le jeu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classJeu_a2dcd6b75ed14033925f099154f1596a9}\label{classJeu_a2dcd6b75ed14033925f099154f1596a9}} 
+void \hyperlink{classJeu_a2dcd6b75ed14033925f099154f1596a9}{pre\+Actualise} ()
+\begin{DoxyCompactList}\small\item\em Pre actualise, gere les actualisations qui se font une fois par tick avant l\textquotesingle{}actualisation. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_ac98294e428434e2ad3ae46bc768302b8}\label{classJeu_ac98294e428434e2ad3ae46bc768302b8}} 
+void \hyperlink{classJeu_ac98294e428434e2ad3ae46bc768302b8}{actualise\+Unit} ()
+\begin{DoxyCompactList}\small\item\em Actualise de maniere unitaire (plusieurs fois par tick et syncrone) les données. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a216163c1da79b3cbeca07b30e2991a80}\label{classJeu_a216163c1da79b3cbeca07b30e2991a80}} 
+void \hyperlink{classJeu_a216163c1da79b3cbeca07b30e2991a80}{post\+Actualise} ()
+\begin{DoxyCompactList}\small\item\em Post actualise, gere les actualisations qui se font une fois par tick apres l\textquotesingle{}actualisation. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a12227d1b9fa4102f32079ebedbb49da5}\label{classJeu_a12227d1b9fa4102f32079ebedbb49da5}} 
+void \hyperlink{classJeu_a12227d1b9fa4102f32079ebedbb49da5}{actualise} ()
+\begin{DoxyCompactList}\small\item\em Gere toute l\textquotesingle{}actualisation c\textquotesingle{}est le coeur des calculs. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a566ee724d4bbd076f7b856e684b15a61}\label{classJeu_a566ee724d4bbd076f7b856e684b15a61}} 
+void \hyperlink{classJeu_a566ee724d4bbd076f7b856e684b15a61}{test\+Cam} ()
+\begin{DoxyCompactList}\small\item\em Gere la caméra. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a43e0f47283e7e5a306245fda47f294e4}\label{classJeu_a43e0f47283e7e5a306245fda47f294e4}} 
+void \hyperlink{classJeu_a43e0f47283e7e5a306245fda47f294e4}{test\+Sort\+Map} ()
+\begin{DoxyCompactList}\small\item\em Gere les eventuels sortie de carte (mort dans le vide...) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a800a41a81071d138f0c80bf9a6a728c1}\label{classJeu_a800a41a81071d138f0c80bf9a6a728c1}} 
+void \hyperlink{classJeu_a800a41a81071d138f0c80bf9a6a728c1}{test\+Mort} ()
+\begin{DoxyCompactList}\small\item\em Gere la mort et ses actions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a2ac17469c652b7027c8adf2687875e16}\label{classJeu_a2ac17469c652b7027c8adf2687875e16}} 
+void \hyperlink{classJeu_a2ac17469c652b7027c8adf2687875e16}{test\+Fin} ()
+\begin{DoxyCompactList}\small\item\em Si le hero à tué tout les ennemis et qu\textquotesingle{}il est sur un texture existante est étant \textquotesingle{}$\ast$\textquotesingle{} le niveau est fini ou score à 0. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a5d35a274777a18007ecaff002ca082e6}\label{classJeu_a5d35a274777a18007ecaff002ca082e6}} 
+int \hyperlink{classJeu_a5d35a274777a18007ecaff002ca082e6}{get\+Best\+Score} ()
+\begin{DoxyCompactList}\small\item\em Renvoie le meilleur score. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a34c01380d386fb485d28ed0a98637f83}\label{classJeu_a34c01380d386fb485d28ed0a98637f83}} 
+float \hyperlink{classJeu_a34c01380d386fb485d28ed0a98637f83}{get\+Max\+Nb\+Unit\+E\+T\+Reset\+It\+Unit} ()
+\begin{DoxyCompactList}\small\item\em Renvoie le maximum des Nb\+Units de toutes les entites ainsi que remet les It\+Unit à zero, doit être appellé une fois par tick. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_acf914fab6a66c3a3451194f4030ed2ba}\label{classJeu_acf914fab6a66c3a3451194f4030ed2ba}} 
+vector$<$ \hyperlink{classSort}{Sort} $\ast$ $>$ \hyperlink{classJeu_acf914fab6a66c3a3451194f4030ed2ba}{get\+Sort\+Hero} ()
+\begin{DoxyCompactList}\small\item\em Renvoie les sorts du hero, A\+T\+T\+E\+N\+T\+I\+ON V\+E\+C\+T\+OR DE P\+O\+I\+N\+T\+E\+UR M\+A\+N\+I\+ER A\+V\+EC G\+R\+A\+N\+DE P\+R\+E\+C\+A\+U\+T\+I\+ON. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a3d879f7e8573e020c12053d21fd6d135}\label{classJeu_a3d879f7e8573e020c12053d21fd6d135}} 
+vector$<$ \hyperlink{classSort}{Sort} $\ast$ $>$ \hyperlink{classJeu_a3d879f7e8573e020c12053d21fd6d135}{get\+Sort\+Enemis} ()
+\begin{DoxyCompactList}\small\item\em Renvoie les sorts des enemis, A\+T\+T\+E\+N\+T\+I\+ON V\+E\+C\+T\+OR DE P\+O\+I\+N\+T\+E\+UR M\+A\+N\+I\+ER A\+V\+EC G\+R\+A\+N\+DE P\+R\+E\+C\+A\+U\+T\+I\+ON. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classJeu_a4eb0249696f31838b64997757cb8e0eb}\label{classJeu_a4eb0249696f31838b64997757cb8e0eb}} 
+int \hyperlink{classJeu_a4eb0249696f31838b64997757cb8e0eb}{temps\+Fps}
+\begin{DoxyCompactList}\small\item\em Temps avant la derniere actualisation de la boucle (sert à réguler les fps) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a81121c974f5f8a854e210a5fb80c9d3c}\label{classJeu_a81121c974f5f8a854e210a5fb80c9d3c}} 
+int \hyperlink{classJeu_a81121c974f5f8a854e210a5fb80c9d3c}{pos\+CamX}
+\begin{DoxyCompactList}\small\item\em Position de la caméra sur l\textquotesingle{}axe X. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a737d25489a92f86328b7e77ad10b19ca}\label{classJeu_a737d25489a92f86328b7e77ad10b19ca}} 
+int \hyperlink{classJeu_a737d25489a92f86328b7e77ad10b19ca}{pos\+CamY}
+\begin{DoxyCompactList}\small\item\em Position de la caméra sur l\textquotesingle{}axe Y. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_ae601570ba9b7a216ff94604c4d590788}\label{classJeu_ae601570ba9b7a216ff94604c4d590788}} 
+int \hyperlink{classJeu_ae601570ba9b7a216ff94604c4d590788}{etat}
+\begin{DoxyCompactList}\small\item\em Etat, etat de la machine à etat, le jeu à différente scene selon l\textquotesingle{}etat. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_afb0579457934264653eea59d9d94d5ee}\label{classJeu_afb0579457934264653eea59d9d94d5ee}} 
+int \hyperlink{classJeu_afb0579457934264653eea59d9d94d5ee}{score}
+\begin{DoxyCompactList}\small\item\em Score du joueur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a48b143c5d995f5e06b35e3b1e5813024}\label{classJeu_a48b143c5d995f5e06b35e3b1e5813024}} 
+\hyperlink{classCarte}{Carte} \hyperlink{classJeu_a48b143c5d995f5e06b35e3b1e5813024}{carte}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCarte}{Carte} qui est joué \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a3dca2f4beb68ab7bb241d3b7d72e24c4}\label{classJeu_a3dca2f4beb68ab7bb241d3b7d72e24c4}} 
+\hyperlink{classHero}{Hero} \hyperlink{classJeu_a3dca2f4beb68ab7bb241d3b7d72e24c4}{hero}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classHero}{Hero} joué par le joueur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJeu_a2d14f0ffd1e16d81dcdb9e488c5a54ae}\label{classJeu_a2d14f0ffd1e16d81dcdb9e488c5a54ae}} 
+vector$<$ \hyperlink{classPersonnage}{Personnage} $\ast$ $>$ \hyperlink{classJeu_a2d14f0ffd1e16d81dcdb9e488c5a54ae}{enemis}
+\begin{DoxyCompactList}\small\item\em Vector de pointeurs sur base, remplis par des enemis. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class principal, ou se passe tout les calculs, c\textquotesingle{}est le coeur du jeu. 
+
+\begin{DoxyAuthor}{Author}
+\{D\+E\+V\+I\+L\+L\+E\+RS Alexandre, A\+Z\+O\+UI Aymen, K\+R\+I\+MI Imran\} 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Jeu.\+h\item 
+src/Jeu.\+cpp\end{DoxyCompactItemize}

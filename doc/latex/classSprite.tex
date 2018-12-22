@@ -1,0 +1,100 @@
+\hypertarget{classSprite}{}\section{Sprite Class Reference}
+\label{classSprite}\index{Sprite@{Sprite}}
+
+
+Petite class bien pratique pour afficher les animations.  
+
+
+
+
+{\ttfamily \#include $<$Sprite.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classSprite_a96f5f16733b6bc6ac926783838803e58}{init} (S\+D\+L\+\_\+\+Renderer $\ast$r, string i, int n, int f)
+\begin{DoxyCompactList}\small\item\em Initialise le sprite en fonction des paramètres choisis. \end{DoxyCompactList}\item 
+void \hyperlink{classSprite_ae983f590b8340ec584594354e468d11d}{afficher} (complex$<$ float $>$ pos, complex$<$ float $>$ taille, bool miroir=false, float angle=0)
+\begin{DoxyCompactList}\small\item\em Affiche le sprite. \end{DoxyCompactList}\item 
+void \hyperlink{classSprite_ac21824ed58583f1a874a7ca2b3f5befc}{afficher} (float posX, float posY, float tailleX, float tailleY, bool miroir=false, float angle=0)
+\begin{DoxyCompactList}\small\item\em Affiche le sprite. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Petite class bien pratique pour afficher les animations. 
+
+\begin{DoxyAuthor}{Author}
+\{D\+E\+V\+I\+L\+L\+E\+RS Alexandre\} 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSprite_ae983f590b8340ec584594354e468d11d}\label{classSprite_ae983f590b8340ec584594354e468d11d}} 
+\index{Sprite@{Sprite}!afficher@{afficher}}
+\index{afficher@{afficher}!Sprite@{Sprite}}
+\subsubsection{\texorpdfstring{afficher()}{afficher()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Sprite\+::afficher (\begin{DoxyParamCaption}\item[{complex$<$ float $>$}]{pos,  }\item[{complex$<$ float $>$}]{taille,  }\item[{bool}]{miroir = {\ttfamily false},  }\item[{float}]{angle = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Affiche le sprite. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & la position où le sprite sera affiché \\
+\hline
+{\em taille} & la taille que prendra le sprite \\
+\hline
+{\em miroir} & true pour inverser le sprite (false de base) \\
+\hline
+{\em angle} & angle en degres pour tourner le sprite (0 de base) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSprite_ac21824ed58583f1a874a7ca2b3f5befc}\label{classSprite_ac21824ed58583f1a874a7ca2b3f5befc}} 
+\index{Sprite@{Sprite}!afficher@{afficher}}
+\index{afficher@{afficher}!Sprite@{Sprite}}
+\subsubsection{\texorpdfstring{afficher()}{afficher()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Sprite\+::afficher (\begin{DoxyParamCaption}\item[{float}]{posX,  }\item[{float}]{posY,  }\item[{float}]{tailleX,  }\item[{float}]{tailleY,  }\item[{bool}]{miroir = {\ttfamily false},  }\item[{float}]{angle = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Affiche le sprite. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em posX,posY} & la position où le sprite sera affiché \\
+\hline
+{\em taille} & la taille que prendra le sprite \\
+\hline
+{\em miroir} & true pour inverser le sprite (false de base) \\
+\hline
+{\em angle} & angle en degres pour tourner le sprite (0 de base) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSprite_a96f5f16733b6bc6ac926783838803e58}\label{classSprite_a96f5f16733b6bc6ac926783838803e58}} 
+\index{Sprite@{Sprite}!init@{init}}
+\index{init@{init}!Sprite@{Sprite}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Sprite\+::init (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Renderer $\ast$}]{r,  }\item[{string}]{i,  }\item[{int}]{n,  }\item[{int}]{f }\end{DoxyParamCaption})}
+
+
+
+Initialise le sprite en fonction des paramètres choisis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & le renderer utilisé (S\+D\+L2) \\
+\hline
+{\em i} & le path de l\textquotesingle{}image (qui doit être en ligne) \\
+\hline
+{\em n} & le nombre d\textquotesingle{}image de l\textquotesingle{}animation \\
+\hline
+{\em f} & le nombres d\textquotesingle{}images à afficher par seconde \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Sprite.\+h\item 
+src/Sprite.\+cpp\end{DoxyCompactItemize}

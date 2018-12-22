@@ -1,0 +1,77 @@
+\hypertarget{classTortue}{}\section{Tortue Class Reference}
+\label{classTortue}\index{Tortue@{Tortue}}
+
+
+Class hérité de personnage, permet de créé et gerer une tortue.  
+
+
+
+
+{\ttfamily \#include $<$Tortue.\+h$>$}
+
+Inheritance diagram for Tortue\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classTortue}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classTortue_a65a13259653454761ca449d71548c155}\label{classTortue_a65a13259653454761ca449d71548c155}} 
+\hyperlink{classTortue_a65a13259653454761ca449d71548c155}{Tortue} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a66b9778bdac36acb2b4df9c0a8ef28d9}\label{classTortue_a66b9778bdac36acb2b4df9c0a8ef28d9}} 
+\hyperlink{classTortue_a66b9778bdac36acb2b4df9c0a8ef28d9}{Tortue} (const complex$<$ float $>$ \&pos)
+\begin{DoxyCompactList}\small\item\em Constructeur avec une zone de spawn définie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a0e8362c1138097d7f3705ad902203dbe}\label{classTortue_a0e8362c1138097d7f3705ad902203dbe}} 
+\hyperlink{classTortue_a0e8362c1138097d7f3705ad902203dbe}{$\sim$\+Tortue} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a9f9f162bf16ddbec61d4456718a0cc92}\label{classTortue_a9f9f162bf16ddbec61d4456718a0cc92}} 
+const \hyperlink{classContact}{Contact} $\ast$ \hyperlink{classTortue_a9f9f162bf16ddbec61d4456718a0cc92}{get\+Contact} () const
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classContact}{Contact}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR E\+X\+I\+S\+TE U\+NE V\+E\+R\+S\+I\+ON P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a1785e68fe1cb4af043d75b919f8a1379}\label{classTortue_a1785e68fe1cb4af043d75b919f8a1379}} 
+\hyperlink{classContact}{Contact} $\ast$ \hyperlink{classTortue_a1785e68fe1cb4af043d75b919f8a1379}{get\+Contact} ()
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classContact}{Contact}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a22e5e06a94f79b468de55ce631d31c79}\label{classTortue_a22e5e06a94f79b468de55ce631d31c79}} 
+void \hyperlink{classTortue_a22e5e06a94f79b468de55ce631d31c79}{set\+Contact} (const \hyperlink{classContact}{Contact} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Permet de définir le \hyperlink{classContact}{Contact} depuis un autre pointeur de \hyperlink{classContact}{Contact}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_af236dfe0a49ec1975810c96b34b1c34d}\label{classTortue_af236dfe0a49ec1975810c96b34b1c34d}} 
+void \hyperlink{classTortue_af236dfe0a49ec1975810c96b34b1c34d}{lance\+Contact} ()
+\begin{DoxyCompactList}\small\item\em Lance contact. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a94b8cb879344ac4a69f3038db79414d1}\label{classTortue_a94b8cb879344ac4a69f3038db79414d1}} 
+void \hyperlink{classTortue_a94b8cb879344ac4a69f3038db79414d1}{actualise\+Entite\+Contact} ()
+\begin{DoxyCompactList}\small\item\em Actuatlise contact en fonction de entite. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_ac26ab4403ab6211ec53f38c8ff1a493a}\label{classTortue_ac26ab4403ab6211ec53f38c8ff1a493a}} 
+void \hyperlink{classTortue_ac26ab4403ab6211ec53f38c8ff1a493a}{reflechis} (const \hyperlink{classEntite}{Entite} \&hero, const \hyperlink{classCarte}{Carte} \&carte)
+\begin{DoxyCompactList}\small\item\em L\textquotesingle{}IA de la tortue, qui a en entrée l\textquotesingle{}entitée du personnage enemis (le hero), et la carte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a77c244fb06aea0c43906d6caddf56080}\label{classTortue_a77c244fb06aea0c43906d6caddf56080}} 
+void \hyperlink{classTortue_a77c244fb06aea0c43906d6caddf56080}{saute} ()
+\begin{DoxyCompactList}\small\item\em Permet de faire sauter la tortue. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a30e16c09a5d85e428be97ac39d59046d}\label{classTortue_a30e16c09a5d85e428be97ac39d59046d}} 
+void \hyperlink{classTortue_a30e16c09a5d85e428be97ac39d59046d}{droite} ()
+\begin{DoxyCompactList}\small\item\em Permet de déplacer la tortue sur la droite. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a6788f2759006fbdc9599dab1d3de5685}\label{classTortue_a6788f2759006fbdc9599dab1d3de5685}} 
+void \hyperlink{classTortue_a6788f2759006fbdc9599dab1d3de5685}{gauche} ()
+\begin{DoxyCompactList}\small\item\em Permet de déplacer la tortue sur la gauche. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a5ecf2755a1ff163a8f3aa7cb8f48efb4}\label{classTortue_a5ecf2755a1ff163a8f3aa7cb8f48efb4}} 
+vector$<$ \hyperlink{classSort}{Sort} $\ast$ $>$ \hyperlink{classTortue_a5ecf2755a1ff163a8f3aa7cb8f48efb4}{get\+Sort} ()
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir dans un vector de pointeur de sort les sorts de la tortue, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR V\+E\+C\+T\+OR DE P\+O\+I\+N\+T\+E\+U\+RS. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTortue_a2a1cd0b549b96b9e11b86b9b630222bf}\label{classTortue_a2a1cd0b549b96b9e11b86b9b630222bf}} 
+const int \hyperlink{classTortue_a2a1cd0b549b96b9e11b86b9b630222bf}{get\+Id} () const
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir l\textquotesingle{}id (un entier unique pour chaque class héritées) de cette classe fille. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class hérité de personnage, permet de créé et gerer une tortue. 
+
+\begin{DoxyAuthor}{Author}
+\{D\+E\+V\+I\+L\+L\+E\+RS Alexandre, A\+Z\+O\+UI Aymen\} 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Personnage/Tortue.\+h\item 
+src/\+Personnage/Tortue.\+cpp\end{DoxyCompactItemize}

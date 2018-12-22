@@ -1,0 +1,43 @@
+\hypertarget{classCarte}{}\section{Carte Class Reference}
+\label{classCarte}\index{Carte@{Carte}}
+
+
+Petite class bien pratique pour generer une carte depuis un fichier txt.  
+
+
+
+
+{\ttfamily \#include $<$Carte.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCarte_a06daaca86c31c80f8308f4a81d46dc9b}\label{classCarte_a06daaca86c31c80f8308f4a81d46dc9b}} 
+\hyperlink{classCarte_a06daaca86c31c80f8308f4a81d46dc9b}{Carte} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par defaut. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCarte_ad3911548272132632cc9ba3701f5eae9}\label{classCarte_ad3911548272132632cc9ba3701f5eae9}} 
+\hyperlink{classCarte_ad3911548272132632cc9ba3701f5eae9}{Carte} (const string nom\+Fichier)
+\begin{DoxyCompactList}\small\item\em Constructeur avec le nom du fichier de la map  Fichier txt doit avoir sur la premiere ligne les dimentions x y, sur la 2eme ligne les caracteres représentant les tuiles dur, 3eme ligne les tuiles liquides, et enfin la map, ou chaque caractere est une tuile. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCarte_a6d07ff247558e4cfb7b51a9f4923aaba}\label{classCarte_a6d07ff247558e4cfb7b51a9f4923aaba}} 
+const complex$<$ int $>$ \hyperlink{classCarte_a6d07ff247558e4cfb7b51a9f4923aaba}{get\+Dim} () const
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir les dimentions de la carte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCarte_acd6a3224c64d4b990cf8f51a5a72f497}\label{classCarte_acd6a3224c64d4b990cf8f51a5a72f497}} 
+const char \& \hyperlink{classCarte_acd6a3224c64d4b990cf8f51a5a72f497}{get\+Texture} (const unsigned int x, const unsigned int y) const
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir le caractere représentant la tuile en x,y. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCarte_ab22ea8feb8e1c0ea6ed6c12c7d0c1ac3}\label{classCarte_ab22ea8feb8e1c0ea6ed6c12c7d0c1ac3}} 
+const \hyperlink{classHitbox}{Hitbox} \& \hyperlink{classCarte_ab22ea8feb8e1c0ea6ed6c12c7d0c1ac3}{get\+Hitbox} (const unsigned int x, const unsigned int y) const
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir la hitboc de la tuile en x,y. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Petite class bien pratique pour generer une carte depuis un fichier txt. 
+
+\begin{DoxyAuthor}{Author}
+\{D\+E\+V\+I\+L\+L\+E\+RS Alexandre\} 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Carte.\+h\item 
+src/Carte.\+cpp\end{DoxyCompactItemize}

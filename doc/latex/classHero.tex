@@ -1,0 +1,107 @@
+\hypertarget{classHero}{}\section{Hero Class Reference}
+\label{classHero}\index{Hero@{Hero}}
+
+
+Class hérité de personnage, permet de créé et gerer un hero.  
+
+
+
+
+{\ttfamily \#include $<$Hero.\+h$>$}
+
+Inheritance diagram for Hero\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classHero}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classHero_ab5920677a4b5cb59d6f513922d037dca}\label{classHero_ab5920677a4b5cb59d6f513922d037dca}} 
+\hyperlink{classHero_ab5920677a4b5cb59d6f513922d037dca}{Hero} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_ae420330e22765e1f9bfeb7b53c198a63}\label{classHero_ae420330e22765e1f9bfeb7b53c198a63}} 
+\hyperlink{classHero_ae420330e22765e1f9bfeb7b53c198a63}{Hero} (const complex$<$ float $>$ \&spawn)
+\begin{DoxyCompactList}\small\item\em Constructeur avec une zone de spawn. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a5aeef41ede5a80dc29c5acd7b553c4da}\label{classHero_a5aeef41ede5a80dc29c5acd7b553c4da}} 
+\hyperlink{classHero_a5aeef41ede5a80dc29c5acd7b553c4da}{$\sim$\+Hero} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a256426d9f15c5ce40bf33ff3d3d4abbe}\label{classHero_a256426d9f15c5ce40bf33ff3d3d4abbe}} 
+void \hyperlink{classHero_a256426d9f15c5ce40bf33ff3d3d4abbe}{lance\+Shuriken\+Trois\+Coups} (complex$<$ float $>$ cible=complex$<$ float $>$(0, 0))
+\begin{DoxyCompactList}\small\item\em Lance le sort shuriken trois coup sur la cible. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_aef82eef7deba3092e7675013c172d59e}\label{classHero_aef82eef7deba3092e7675013c172d59e}} 
+void \hyperlink{classHero_aef82eef7deba3092e7675013c172d59e}{actualise\+Entite\+Shuriken\+Trois\+Coups} (complex$<$ float $>$ cible=complex$<$ float $>$(0, 0))
+\begin{DoxyCompactList}\small\item\em Actualise le sort shuriken trois coup sur la cible (Obligatoire car sort asyncrone) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a2ae33054394265ed0b1296be092340c8}\label{classHero_a2ae33054394265ed0b1296be092340c8}} 
+const \hyperlink{classShurikenTroisCoups}{Shuriken\+Trois\+Coups} $\ast$ \hyperlink{classHero_a2ae33054394265ed0b1296be092340c8}{get\+Shuriken\+Trois\+Coups} () const
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classShurikenTroisCoups}{Shuriken\+Trois\+Coups}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR E\+X\+I\+S\+TE U\+NE V\+E\+R\+S\+I\+ON P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a1f52127b2e289eac8ce6a44369cfa0cf}\label{classHero_a1f52127b2e289eac8ce6a44369cfa0cf}} 
+\hyperlink{classShurikenTroisCoups}{Shuriken\+Trois\+Coups} $\ast$ \hyperlink{classHero_a1f52127b2e289eac8ce6a44369cfa0cf}{get\+Shuriken\+Trois\+Coups} ()
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classShurikenTroisCoups}{Shuriken\+Trois\+Coups}, , A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a6db0e540a7b17f00e5a0ba327bd8f28d}\label{classHero_a6db0e540a7b17f00e5a0ba327bd8f28d}} 
+void \hyperlink{classHero_a6db0e540a7b17f00e5a0ba327bd8f28d}{set\+Shuriken\+Trois\+Coups} (const \hyperlink{classShurikenTroisCoups}{Shuriken\+Trois\+Coups} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Permet de définir le \hyperlink{classShurikenTroisCoups}{Shuriken\+Trois\+Coups} depuis un autre pointeur de \hyperlink{classShurikenTroisCoups}{Shuriken\+Trois\+Coups}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a343c96d34d0e634c58e50849d1547c79}\label{classHero_a343c96d34d0e634c58e50849d1547c79}} 
+void \hyperlink{classHero_a343c96d34d0e634c58e50849d1547c79}{lance\+Shuriken\+Shot\+Gun} (complex$<$ float $>$ cible=complex$<$ float $>$(0, 0))
+\begin{DoxyCompactList}\small\item\em Lance le sort shuriken shot gun sur la cible. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_af4fbf046960575cf6bb5fbe81a20b520}\label{classHero_af4fbf046960575cf6bb5fbe81a20b520}} 
+const \hyperlink{classShurikenShotGun}{Shuriken\+Shot\+Gun} $\ast$ \hyperlink{classHero_af4fbf046960575cf6bb5fbe81a20b520}{get\+Shuriken\+Shot\+Gun} () const
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classShurikenShotGun}{Shuriken\+Shot\+Gun}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR E\+X\+I\+S\+TE U\+NE V\+E\+R\+S\+I\+ON P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a16e5a2907cd3163796fd5884b9c8b5d2}\label{classHero_a16e5a2907cd3163796fd5884b9c8b5d2}} 
+\hyperlink{classShurikenShotGun}{Shuriken\+Shot\+Gun} $\ast$ \hyperlink{classHero_a16e5a2907cd3163796fd5884b9c8b5d2}{get\+Shuriken\+Shot\+Gun} ()
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classShurikenShotGun}{Shuriken\+Shot\+Gun}, , A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a703b888083d8edc95308994f1f292e87}\label{classHero_a703b888083d8edc95308994f1f292e87}} 
+void \hyperlink{classHero_a703b888083d8edc95308994f1f292e87}{set\+Shuriken\+Shot\+Gun} (const \hyperlink{classShurikenShotGun}{Shuriken\+Shot\+Gun} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Permet de définir le \hyperlink{classShurikenShotGun}{Shuriken\+Shot\+Gun} depuis un autre pointeur de \hyperlink{classShurikenShotGun}{Shuriken\+Shot\+Gun}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_ad2b8c6bd5d121d93dbe470480439363e}\label{classHero_ad2b8c6bd5d121d93dbe470480439363e}} 
+void \hyperlink{classHero_ad2b8c6bd5d121d93dbe470480439363e}{lance\+Dash\+Hero} (complex$<$ float $>$ cible=complex$<$ float $>$(0, 0))
+\begin{DoxyCompactList}\small\item\em Lance le sort dash sur la cible. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_aaac1bd07bd3ec49495e29f434cb9d7e5}\label{classHero_aaac1bd07bd3ec49495e29f434cb9d7e5}} 
+void \hyperlink{classHero_aaac1bd07bd3ec49495e29f434cb9d7e5}{actualise\+Entite\+Dash\+Hero} ()
+\begin{DoxyCompactList}\small\item\em Actualise l\textquotesingle{}entite du hero pour suivre le dash. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a3c5ea2dd366e7ec80d475c2b8b644f22}\label{classHero_a3c5ea2dd366e7ec80d475c2b8b644f22}} 
+const \hyperlink{classDashHero}{Dash\+Hero} $\ast$ \hyperlink{classHero_a3c5ea2dd366e7ec80d475c2b8b644f22}{get\+Dash\+Hero} () const
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classDashHero}{Dash\+Hero}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR E\+X\+I\+S\+TE U\+NE V\+E\+R\+S\+I\+ON P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a7843f71559ea096b4062265825e84565}\label{classHero_a7843f71559ea096b4062265825e84565}} 
+\hyperlink{classDashHero}{Dash\+Hero} $\ast$ \hyperlink{classHero_a7843f71559ea096b4062265825e84565}{get\+Dash\+Hero} ()
+\begin{DoxyCompactList}\small\item\em Permet de récuperer le pointeur du sort \hyperlink{classDashHero}{Dash\+Hero}, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR P\+O\+I\+N\+T\+E\+UR N\+ON C\+O\+N\+ST. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a68fd45b04edeb3b566cefe084270842b}\label{classHero_a68fd45b04edeb3b566cefe084270842b}} 
+void \hyperlink{classHero_a68fd45b04edeb3b566cefe084270842b}{set\+Dash\+Hero} (const \hyperlink{classDashHero}{Dash\+Hero} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Permet de définir le \hyperlink{classDashHero}{Dash\+Hero} depuis un autre pointeur de \hyperlink{classDashHero}{Dash\+Hero}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_ab77979e0edf61172346177ff6a62a986}\label{classHero_ab77979e0edf61172346177ff6a62a986}} 
+vector$<$ \hyperlink{classSort}{Sort} $\ast$ $>$ \hyperlink{classHero_ab77979e0edf61172346177ff6a62a986}{get\+Sort} ()
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir dans un vector de pointeur de sort les sorts du hero, A\+T\+T\+E\+N\+T\+I\+ON A M\+A\+N\+I\+P\+U\+L\+ER A\+V\+EC P\+R\+E\+C\+A\+U\+T\+I\+ON C\+AR V\+E\+C\+T\+OR DE P\+O\+I\+N\+T\+E\+U\+RS. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_af150302d7bd77ef2e6848d7a0d69183f}\label{classHero_af150302d7bd77ef2e6848d7a0d69183f}} 
+const int \hyperlink{classHero_af150302d7bd77ef2e6848d7a0d69183f}{get\+Id} () const
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}obtenir l\textquotesingle{}id (un entier unique pour chaque class héritées) de cette classe fille. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a5011a72e233ff7c9f7c769d4d8b48e6a}\label{classHero_a5011a72e233ff7c9f7c769d4d8b48e6a}} 
+void \hyperlink{classHero_a5011a72e233ff7c9f7c769d4d8b48e6a}{saute} ()
+\begin{DoxyCompactList}\small\item\em Fait sauter le hero. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a428850752781523453fb22f36520441b}\label{classHero_a428850752781523453fb22f36520441b}} 
+void \hyperlink{classHero_a428850752781523453fb22f36520441b}{droite} ()
+\begin{DoxyCompactList}\small\item\em Fait aller à droite le hero. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a7b306e283fa1cea38f66fc0971271745}\label{classHero_a7b306e283fa1cea38f66fc0971271745}} 
+void \hyperlink{classHero_a7b306e283fa1cea38f66fc0971271745}{gauche} ()
+\begin{DoxyCompactList}\small\item\em Fait aller à gauche le hero. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a7efdbfcdfa95f8f52b2f410eb6bfa719}\label{classHero_a7efdbfcdfa95f8f52b2f410eb6bfa719}} 
+void \hyperlink{classHero_a7efdbfcdfa95f8f52b2f410eb6bfa719}{attend} ()
+\begin{DoxyCompactList}\small\item\em Immobilise le hero. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHero_a8a193d2a45eaaf757d4d083a7cbc12a5}\label{classHero_a8a193d2a45eaaf757d4d083a7cbc12a5}} 
+void \hyperlink{classHero_a8a193d2a45eaaf757d4d083a7cbc12a5}{meurt} ()
+\begin{DoxyCompactList}\small\item\em Effectue les actions lié à la mort du hero (le reinitialise) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class hérité de personnage, permet de créé et gerer un hero. 
+
+\begin{DoxyAuthor}{Author}
+\{D\+E\+V\+I\+L\+L\+E\+RS Alexandre, A\+Z\+O\+UI Aymen\} 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Personnage/Hero.\+h\item 
+src/\+Personnage/Hero.\+cpp\end{DoxyCompactItemize}

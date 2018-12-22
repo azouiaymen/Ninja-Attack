@@ -1,0 +1,3384 @@
+# depslib dependency file v1.0
+1524484591 source:w:\ninjattack\src\carte.cpp
+	"Carte.h"
+	<fstream>
+	<cassert>
+
+1524484591 
+
+1524484591 w:\ninjattack\src\carte.h
+	"Definition.h"
+	"Hitbox.h"
+	<string>
+	<vector>
+	<complex>
+	<iostream>
+
+1524484591 w:\ninjattack\src\hitbox.h
+	"Definition.h"
+	<complex>
+
+1524484591 source:w:\ninjattack\src\entite.cpp
+	"Entite.h"
+	<time.h>
+	<iostream>
+
+1524484591 w:\ninjattack\src\entite.h
+	"Definition.h"
+	"Hitbox.h"
+
+1524484591 source:w:\ninjattack\src\hitbox.cpp
+	"Hitbox.h"
+	<math.h>
+
+1524499299 source:w:\ninjattack\src\jeu.cpp
+	<cassert>
+	"Jeu.h"
+	<algorithm>
+	<fstream>
+	<cassert>
+	<windows.h>
+	<unistd.h>
+
+1524484589 w:\ninjattack\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 e.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1523715856 orm.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\begin_code.h
+
+1524484590 w:\ninjattack\include\sdl2\close_code.h
+
+1524484589 w:\ninjattack\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1523715856 ode.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1523715856 c.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1523715856 .h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484589 w:\ninjattack\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524498042 w:\ninjattack\src\jeu.h
+	"Definition.h"
+	"Carte.h"
+	"Personnage/Personnage.h"
+	"Personnage/Hero.h"
+	"Personnage/Tortue.h"
+	"Personnage/Requin.h"
+	"Personnage/Aigle.h"
+	<vector>
+	"winTxt.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"Sprite.h"
+	"DefinitionSDL.h"
+
+1524258981 nSDL.h"
+
+1522748542 w:\ninjattack\src\personnage.h
+	"Definition.h"
+	"Entite.h"
+	"Sort.h"
+	"Carte.h"
+	<vector>
+
+1522748654 w:\ninjattack\src\sort.h
+	"Definition.h"
+	"Entite.h"
+	"Carte.h"
+	<vector>
+	<complex>
+
+1524484592 w:\ninjattack\src\wintxt.h
+
+1524484592 source:w:\ninjattack\src\main.cpp
+	"Jeu.h"
+	<chrono>
+
+1522752784 source:w:\ninjattack\src\personnage.cpp
+	"Personnage.h"
+	"Carte.h"
+	<cassert>
+	<time.h>
+
+1522748880 source:w:\ninjattack\src\sort.cpp
+	"Sort.h"
+	<math.h>
+	<stdlib.h>
+
+1524484592 source:w:\ninjattack\src\wintxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1524413321 source:d:\users\furet\desktop\ninjattack\src\carte.cpp
+	"Carte.h"
+	<fstream>
+	<cassert>
+
+1524414145 d:\users\furet\desktop\ninjattack\src\carte.h
+	"Definition.h"
+	"Hitbox.h"
+	<string>
+	<vector>
+	<complex>
+	<iostream>
+
+1524413039 d:\users\furet\desktop\ninjattack\src\hitbox.h
+	"Definition.h"
+	<complex>
+
+1524409859 source:d:\users\furet\desktop\ninjattack\src\entite.cpp
+	"Entite.h"
+	<time.h>
+	<iostream>
+
+1524414063 d:\users\furet\desktop\ninjattack\src\entite.h
+	"Definition.h"
+	"Hitbox.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\hitbox.cpp
+	"Hitbox.h"
+	<math.h>
+
+1524419361 source:d:\users\furet\desktop\ninjattack\src\jeu.cpp
+	<cassert>
+	"Jeu.h"
+	<algorithm>
+	<fstream>
+	<cassert>
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\begin_code.h
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\close_code.h
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558618 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524418617 d:\users\furet\desktop\ninjattack\src\jeu.h
+	"Definition.h"
+	"Carte.h"
+	"Personnage/Personnage.h"
+	"Personnage/Hero.h"
+	"Personnage/Tortue.h"
+	"Personnage/Requin.h"
+	"Personnage/Aigle.h"
+	<vector>
+	"winTxt.h"
+	<windows.h>
+	<unistd.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"Sprite.h"
+	"DefinitionSDL.h"
+
+1522755754 d:\users\furet\desktop\ninjattack\src\personnage.h
+	"Definition.h"
+	"Entite.h"
+	"Sort.h"
+	"Carte.h"
+	<vector>
+
+1522759027 d:\users\furet\desktop\ninjattack\src\sort.h
+	"Definition.h"
+	"Entite.h"
+	"Carte.h"
+	<vector>
+	<complex>
+
+1523558619 d:\users\furet\desktop\ninjattack\src\wintxt.h
+
+1524261517 source:d:\users\furet\desktop\ninjattack\src\main.cpp
+	"Jeu.h"
+	<chrono>
+
+1522768248 source:d:\users\furet\desktop\ninjattack\src\personnage.cpp
+	"Personnage.h"
+	"Carte.h"
+	<cassert>
+	<time.h>
+
+1522767416 source:d:\users\furet\desktop\ninjattack\src\sort.cpp
+	"Sort.h"
+	<math.h>
+	<stdlib.h>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\wintxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1524326964 source:d:\users\furet\desktop\ninjattack\src\sprit.cpp
+	"Sprit.h"
+
+1524413107 d:\users\furet\desktop\ninjattack\src\sprit.h
+	"Definition.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<complex>
+
+1524408304 d:\users\furet\desktop\ninjattack\src\definition.h
+	<chrono>
+
+1524484591 w:\ninjattack\src\definition.h
+	<chrono>
+
+1523538890 w:\ninjattack\src\sprit.h
+	"Definition.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<complex>
+
+1523538890 source:w:\ninjattack\src\sprit.cpp
+	"Sprit.h"
+
+1524484591 source:w:\ninjattack\src\definition.cpp
+	"Definition.h"
+	<iostream>
+
+1522153925 source:w:\ninjattack\src\jeusdl.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<cassert>
+	"JeuSDL.h"
+	"Sprit.h"
+	<windows.h>
+	<unistd.h>
+
+1522151661 w:\ninjattack\src\jeusdl.h
+	"Definition.h"
+	"Carte.h"
+	"Personnage.h"
+	"winTxt.h"
+	"Sprit.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<vector>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\definition.cpp
+	"Definition.h"
+	<iostream>
+
+1522158506 source:d:\users\furet\desktop\ninjattack\src\jeusdl.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<cassert>
+	"JeuSDL.h"
+	"Sprit.h"
+	"DefinitionSDL.h"
+	<windows.h>
+	<unistd.h>
+
+1522156851 d:\users\furet\desktop\ninjattack\src\jeusdl.h
+	"Definition.h"
+	"Carte.h"
+	"Personnage.h"
+	"winTxt.h"
+	"Sprit.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<vector>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\definitionsdl.cpp
+	<SDL2/SDL.h>
+	"DefinitionSDL.h"
+	"Definition.h"
+	<iostream>
+
+1524408600 d:\users\furet\desktop\ninjattack\src\definitionsdl.h
+	<chrono>
+
+1524484591 source:w:\ninjattack\src\definitionsdl.cpp
+	<SDL2/SDL.h>
+	"DefinitionSDL.h"
+	"Definition.h"
+	<iostream>
+
+1524484591 w:\ninjattack\src\definitionsdl.h
+	<chrono>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\sort\contact.cpp
+	"Contact.h"
+	<math.h>
+	<stdlib.h>
+
+1524414112 d:\users\furet\desktop\ninjattack\src\personnage\personnage.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Sort/Sort.h"
+	"../Sort/ShurikenTroisCoups.h"
+	"../Sort/ShurikenShotGun.h"
+	"../Sort/DashHero.h"
+	"../Sort/Contact.h"
+	"../Sort/Dash.h"
+	"../Sort/Tir.h"
+	"../Carte.h"
+	<vector>
+
+1524414124 d:\users\furet\desktop\ninjattack\src\sort\sort.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Carte.h"
+	<vector>
+	<complex>
+
+1524414123 d:\users\furet\desktop\ninjattack\src\sort\shurikentroiscoups.h
+	"Sort.h"
+
+1524414122 d:\users\furet\desktop\ninjattack\src\sort\shurikenshotgun.h
+	"Sort.h"
+
+1524414121 d:\users\furet\desktop\ninjattack\src\sort\dashhero.h
+	"Sort.h"
+
+1524414118 d:\users\furet\desktop\ninjattack\src\sort\contact.h
+	"Sort.h"
+
+1524414119 d:\users\furet\desktop\ninjattack\src\sort\dash.h
+	"Sort.h"
+
+1524414115 d:\users\furet\desktop\ninjattack\src\sort\tir.h
+	"Sort.h"
+
+1524414110 d:\users\furet\desktop\ninjattack\src\personnage\hero.h
+	"Personnage.h"
+
+1524414116 d:\users\furet\desktop\ninjattack\src\personnage\tortue.h
+	"Personnage.h"
+
+1524414114 d:\users\furet\desktop\ninjattack\src\personnage\requin.h
+	"Personnage.h"
+
+1524414107 d:\users\furet\desktop\ninjattack\src\personnage\aigle.h
+	"Personnage.h"
+
+1524327773 source:d:\users\furet\desktop\ninjattack\src\personnage\aigle.cpp
+	"Aigle.h"
+	"../Carte.h"
+
+1523715856 h"
+
+1524328986 source:d:\users\furet\desktop\ninjattack\src\personnage\hero.cpp
+	"Hero.h"
+	"../Carte.h"
+
+1524333400 source:d:\users\furet\desktop\ninjattack\src\personnage\personnage.cpp
+	"Personnage.h"
+	"../Carte.h"
+	<cassert>
+	<time.h>
+
+1524333979 source:d:\users\furet\desktop\ninjattack\src\personnage\requin.cpp
+	"Requin.h"
+	"../Carte.h"
+
+1524413962 source:d:\users\furet\desktop\ninjattack\src\sort\sort.cpp
+	"Sort.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524335088 source:d:\users\furet\desktop\ninjattack\src\personnage\tortue.cpp
+	"Tortue.h"
+	"../Carte.h"
+
+1524413589 source:d:\users\furet\desktop\ninjattack\src\sort\dash.cpp
+	"Dash.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524413670 source:d:\users\furet\desktop\ninjattack\src\sort\dashhero.cpp
+	"DashHero.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524413669 source:d:\users\furet\desktop\ninjattack\src\sort\shurikenshotgun.cpp
+	"ShurikenShotGun.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524413928 source:d:\users\furet\desktop\ninjattack\src\sort\tir.cpp
+	"Tir.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524413755 source:d:\users\furet\desktop\ninjattack\src\sort\shurikentroiscoups.cpp
+	"ShurikenTroisCoups.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1522948473 source:u:\ninjattack\src\carte.cpp
+	"Carte.h"
+	<fstream>
+	<stdlib.h>
+
+1522948473 u:\ninjattack\src\carte.h
+	"Definition.h"
+	"Hitbox.h"
+	<string>
+	<vector>
+	<complex>
+	<iostream>
+
+1522948473 u:\ninjattack\src\definition.h
+	<chrono>
+
+1522948473 u:\ninjattack\src\hitbox.h
+	"Definition.h"
+	<complex>
+
+1522948473 source:u:\ninjattack\src\definition.cpp
+	"Definition.h"
+	<iostream>
+
+1522948838 source:u:\ninjattack\src\definitionsdl.cpp
+	<SDL2/SDL.h>
+	"DefinitionSDL.h"
+	"Definition.h"
+	<iostream>
+
+1522948472 u:\ninjattack\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\begin_code.h
+
+1522948473 u:\ninjattack\include\sdl2\close_code.h
+
+1522948472 u:\ninjattack\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\src\definitionsdl.h
+	<chrono>
+
+1522948473 source:u:\ninjattack\src\entite.cpp
+	"Entite.h"
+	<time.h>
+	<iostream>
+
+1522948473 u:\ninjattack\src\entite.h
+	"Definition.h"
+	"Hitbox.h"
+
+1522948473 source:u:\ninjattack\src\hitbox.cpp
+	"Hitbox.h"
+	<math.h>
+
+1522948473 source:u:\ninjattack\src\main.cpp
+	"Jeu.h"
+	<chrono>
+
+1522948473 u:\ninjattack\src\jeu.h
+	"Definition.h"
+	"Carte.h"
+	"Personnage/Personnage.h"
+	"Personnage/Hero.h"
+	"Personnage/Tortue.h"
+	"Personnage/Requin.h"
+	"Personnage/Aigle.h"
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"Sprit.h"
+	"DefinitionSDL.h"
+
+1522948473 u:\ninjattack\src\personnage\personnage.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Sort/Sort.h"
+	"../Sort/ShurikenTroisCoups.h"
+	"../Sort/ShurikenShotGun.h"
+	"../Sort/DashHero.h"
+	"../Sort/Contact.h"
+	"../Sort/Dash.h"
+	"../Sort/Tir.h"
+	"../Carte.h"
+	<vector>
+
+1522948473 u:\ninjattack\src\sort\sort.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Carte.h"
+	<vector>
+	<complex>
+
+1522948473 u:\ninjattack\src\sort\shurikentroiscoups.h
+	"Sort.h"
+
+1522948473 u:\ninjattack\src\sort\shurikenshotgun.h
+	"Sort.h"
+
+1522948473 u:\ninjattack\src\sort\dashhero.h
+	"Sort.h"
+
+1522948473 u:\ninjattack\src\sort\contact.h
+	"Sort.h"
+
+1522948473 u:\ninjattack\src\sort\dash.h
+	"Sort.h"
+
+1522948473 u:\ninjattack\src\sort\tir.h
+	"Sort.h"
+
+1522948473 u:\ninjattack\src\personnage\hero.h
+	"Personnage.h"
+
+1522948473 u:\ninjattack\src\personnage\tortue.h
+	"Personnage.h"
+
+1522948473 u:\ninjattack\src\personnage\requin.h
+	"Personnage.h"
+
+1522948473 u:\ninjattack\src\personnage\aigle.h
+	"Personnage.h"
+
+1522948472 u:\ninjattack\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522948473 u:\ninjattack\src\sprit.h
+	"Definition.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<complex>
+
+1522948473 source:u:\ninjattack\src\personnage\aigle.cpp
+	"Aigle.h"
+	"../Carte.h"
+
+1522946920 source:u:\ninjattack\src\personnage\hero.cpp
+	"Hero.h"
+	"../Carte.h"
+
+1522948473 source:u:\ninjattack\src\personnage\personnage.cpp
+	"Personnage.h"
+	"../Carte.h"
+	<cassert>
+	<time.h>
+
+1522948473 source:u:\ninjattack\src\personnage\requin.cpp
+	"Requin.h"
+	"../Carte.h"
+
+1522948473 source:u:\ninjattack\src\personnage\tortue.cpp
+	"Tortue.h"
+	"../Carte.h"
+
+1522948473 source:u:\ninjattack\src\sort\contact.cpp
+	"Contact.h"
+	<math.h>
+	<stdlib.h>
+
+1522948473 source:u:\ninjattack\src\sort\dash.cpp
+	"Dash.h"
+	<math.h>
+	<stdlib.h>
+
+1522948473 source:u:\ninjattack\src\sort\dashhero.cpp
+	"DashHero.h"
+	<math.h>
+	<stdlib.h>
+
+1522948473 source:u:\ninjattack\src\sort\shurikenshotgun.cpp
+	"ShurikenShotGun.h"
+	<math.h>
+	<stdlib.h>
+
+1522948473 source:u:\ninjattack\src\sort\shurikentroiscoups.cpp
+	"ShurikenTroisCoups.h"
+	<math.h>
+	<stdlib.h>
+
+1522948473 source:u:\ninjattack\src\sort\sort.cpp
+	"Sort.h"
+	<math.h>
+	<stdlib.h>
+
+1522948473 source:u:\ninjattack\src\sort\tir.cpp
+	"Tir.h"
+	<math.h>
+	<stdlib.h>
+
+1522948473 source:u:\ninjattack\src\sprit.cpp
+	"Sprit.h"
+
+1522948473 source:u:\ninjattack\src\wintxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1522948473 u:\ninjattack\src\wintxt.h
+
+1522944106 source:u:\ninjattack\src\jeu.cpp
+	<cassert>
+	"Jeu.h"
+	<algorithm>
+
+1522945167 >
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Carte.cpp
+	"Carte.h"
+	<fstream>
+	<stdlib.h>
+	"Carte.h"
+	<fstream>
+	<cassert>
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Carte.h
+	"Definition.h"
+	"Hitbox.h"
+	<string>
+	<vector>
+	<complex>
+	<iostream>
+	"Definition.h"
+	"Hitbox.h"
+	<string>
+	<vector>
+	<complex>
+	<iostream>
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Definition.h
+	<chrono>
+	<chrono>
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Hitbox.h
+	"Definition.h"
+	<complex>
+	"Definition.h"
+	<complex>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Definition.cpp
+	"Definition.h"
+	<iostream>
+	"Definition.h"
+	<iostream>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Entite.cpp
+	"Entite.h"
+	<time.h>
+	<iostream>
+	"Entite.h"
+	<time.h>
+	<iostream>
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Entite.h
+	"Definition.h"
+	"Hitbox.h"
+	"Definition.h"
+	"Hitbox.h"
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Hitbox.cpp
+	"Hitbox.h"
+	<math.h>
+	"Hitbox.h"
+	<math.h>
+
+1524480992 source:/home/etu/p1608591/Ninjattack/src/main.cpp
+	"Jeu.h"
+	<chrono>
+	"Jeu.h"
+	<chrono>
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Jeu.h
+	"Definition.h"
+	"Carte.h"
+	"Personnage/Personnage.h"
+	"Personnage/Hero.h"
+	"Personnage/Tortue.h"
+	"Personnage/Requin.h"
+	"Personnage/Aigle.h"
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"Sprit.h"
+	"DefinitionSDL.h"
+	"Definition.h"
+	"Carte.h"
+	"Personnage/Personnage.h"
+	"Personnage/Hero.h"
+	"Personnage/Tortue.h"
+	"Personnage/Requin.h"
+	"Personnage/Aigle.h"
+	<vector>
+	"winTxt.h"
+	<windows.h>
+	<unistd.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"Sprite.h"
+	"DefinitionSDL.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Personnage/Personnage.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Sort/Sort.h"
+	"../Sort/ShurikenTroisCoups.h"
+	"../Sort/ShurikenShotGun.h"
+	"../Sort/DashHero.h"
+	"../Sort/Contact.h"
+	"../Sort/Dash.h"
+	"../Sort/Tir.h"
+	"../Carte.h"
+	<vector>
+	"../Definition.h"
+	"../Entite.h"
+	"../Sort/Sort.h"
+	"../Sort/ShurikenTroisCoups.h"
+	"../Sort/ShurikenShotGun.h"
+	"../Sort/DashHero.h"
+	"../Sort/Contact.h"
+	"../Sort/Dash.h"
+	"../Sort/Tir.h"
+	"../Carte.h"
+	<vector>
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Sort/Sort.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Carte.h"
+	<vector>
+	<complex>
+	"../Definition.h"
+	"../Entite.h"
+	"../Carte.h"
+	<vector>
+	<complex>
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Sort/ShurikenTroisCoups.h
+	"Sort.h"
+	"Sort.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Sort/ShurikenShotGun.h
+	"Sort.h"
+	"Sort.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Sort/DashHero.h
+	"Sort.h"
+	"Sort.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Sort/Contact.h
+	"Sort.h"
+	"Sort.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Sort/Dash.h
+	"Sort.h"
+	"Sort.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Sort/Tir.h
+	"Sort.h"
+	"Sort.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Personnage/Hero.h
+	"Personnage.h"
+	"Personnage.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Personnage/Tortue.h
+	"Personnage.h"
+	"Personnage.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Personnage/Requin.h
+	"Personnage.h"
+	"Personnage.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Personnage/Aigle.h
+	"Personnage.h"
+	"Personnage.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_config.h
+	"SDL_platform.h"
+	"SDL_platform.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/begin_code.h
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/close_code.h
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+	"SDL_stdinc.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480989 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1522944873 /home/etu/p1608591/Ninjattack/src/Sprit.h
+	"Definition.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<complex>
+
+1524480991 /home/etu/p1608591/Ninjattack/src/DefinitionSDL.h
+	<chrono>
+	<chrono>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Personnage/Aigle.cpp
+	"Aigle.h"
+	"../Carte.h"
+	"Aigle.h"
+	"../Carte.h"
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Personnage/Hero.cpp
+	"Hero.h"
+	"../Carte.h"
+	"Hero.h"
+	"../Carte.h"
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Personnage/Personnage.cpp
+	"Personnage.h"
+	"../Carte.h"
+	<cassert>
+	<time.h>
+	"Personnage.h"
+	"../Carte.h"
+	<cassert>
+	<time.h>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Personnage/Requin.cpp
+	"Requin.h"
+	"../Carte.h"
+	"Requin.h"
+	"../Carte.h"
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Personnage/Tortue.cpp
+	"Tortue.h"
+	"../Carte.h"
+	"Tortue.h"
+	"../Carte.h"
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Sort/Contact.cpp
+	"Contact.h"
+	<math.h>
+	<stdlib.h>
+	"Contact.h"
+	<math.h>
+	<stdlib.h>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Sort/Dash.cpp
+	"Dash.h"
+	<math.h>
+	<stdlib.h>
+	"Dash.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Sort/DashHero.cpp
+	"DashHero.h"
+	<math.h>
+	<stdlib.h>
+	"DashHero.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Sort/ShurikenShotGun.cpp
+	"ShurikenShotGun.h"
+	<math.h>
+	<stdlib.h>
+	"ShurikenShotGun.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Sort/ShurikenTroisCoups.cpp
+	"ShurikenTroisCoups.h"
+	<math.h>
+	<stdlib.h>
+	"ShurikenTroisCoups.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Sort/Sort.cpp
+	"Sort.h"
+	<math.h>
+	<stdlib.h>
+	"Sort.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Sort/Tir.cpp
+	"Tir.h"
+	<math.h>
+	<stdlib.h>
+	"Tir.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1522944873 source:/home/etu/p1608591/Ninjattack/src/Sprit.cpp
+	"Sprit.h"
+
+1524480992 source:/home/etu/p1608591/Ninjattack/src/winTxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1524480992 /home/etu/p1608591/Ninjattack/src/winTxt.h
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/DefinitionSDL.cpp
+	<SDL2/SDL.h>
+	"DefinitionSDL.h"
+	"Definition.h"
+	<iostream>
+	<SDL2/SDL.h>
+	"DefinitionSDL.h"
+	"Definition.h"
+	<iostream>
+
+1524484472 source:/home/etu/p1608591/Ninjattack/src/Jeu.cpp
+	<cassert>
+	"Jeu.h"
+	<algorithm>
+	<cassert>
+	"Jeu.h"
+	<algorithm>
+	<fstream>
+	<cassert>
+
+1524484591 w:\ninjattack\src\personnage\personnage.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Sort/Sort.h"
+	"../Sort/ShurikenTroisCoups.h"
+	"../Sort/ShurikenShotGun.h"
+	"../Sort/DashHero.h"
+	"../Sort/Contact.h"
+	"../Sort/Dash.h"
+	"../Sort/Tir.h"
+	"../Carte.h"
+	<vector>
+
+1524484591 w:\ninjattack\src\sort\sort.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Carte.h"
+	<vector>
+	<complex>
+
+1524484591 w:\ninjattack\src\sort\shurikentroiscoups.h
+	"Sort.h"
+
+1524484591 w:\ninjattack\src\sort\shurikenshotgun.h
+	"Sort.h"
+
+1524484591 w:\ninjattack\src\sort\dashhero.h
+	"Sort.h"
+
+1524484591 w:\ninjattack\src\sort\contact.h
+	"Sort.h"
+
+1524484591 w:\ninjattack\src\sort\dash.h
+	"Sort.h"
+
+1524484591 w:\ninjattack\src\sort\tir.h
+	"Sort.h"
+
+1524484591 w:\ninjattack\src\personnage\hero.h
+	"Personnage.h"
+
+1524484591 w:\ninjattack\src\personnage\tortue.h
+	"Personnage.h"
+
+1524484591 w:\ninjattack\src\personnage\requin.h
+	"Personnage.h"
+
+1524484591 w:\ninjattack\src\personnage\aigle.h
+	"Personnage.h"
+
+1524484591 source:w:\ninjattack\src\personnage\personnage.cpp
+	"Personnage.h"
+	"../Carte.h"
+	<cassert>
+	<time.h>
+
+1524484591 source:w:\ninjattack\src\personnage\requin.cpp
+	"Requin.h"
+	"../Carte.h"
+
+1524484591 source:w:\ninjattack\src\personnage\tortue.cpp
+	"Tortue.h"
+	"../Carte.h"
+
+1524484591 source:w:\ninjattack\src\sort\contact.cpp
+	"Contact.h"
+	<math.h>
+	<stdlib.h>
+
+1524484591 source:w:\ninjattack\src\sort\dash.cpp
+	"Dash.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524484591 source:w:\ninjattack\src\sort\dashhero.cpp
+	"DashHero.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524484591 source:w:\ninjattack\src\sort\shurikenshotgun.cpp
+	"ShurikenShotGun.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524484591 source:w:\ninjattack\src\sort\shurikentroiscoups.cpp
+	"ShurikenTroisCoups.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524484591 source:w:\ninjattack\src\sort\sort.cpp
+	"Sort.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524484591 source:w:\ninjattack\src\sort\tir.cpp
+	"Tir.h"
+	<math.h>
+	<stdlib.h>
+	<cassert>
+
+1524484591 source:w:\ninjattack\src\personnage\aigle.cpp
+	"Aigle.h"
+	"../Carte.h"
+
+1524484591 source:w:\ninjattack\src\personnage\hero.cpp
+	"Hero.h"
+	"../Carte.h"
+
+1524484590 w:\ninjattack\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523558619 d:\users\furet\desktop\ninjattack\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 source:d:\ninjattack\src\carte.cpp
+	"Carte.h"
+	<fstream>
+	<stdlib.h>
+
+1523715856 d:\ninjattack\src\carte.h
+	"Definition.h"
+	"Hitbox.h"
+	<string>
+	<vector>
+	<complex>
+	<iostream>
+
+1523715856 d:\ninjattack\src\definition.h
+	<chrono>
+
+1523715856 d:\ninjattack\src\hitbox.h
+	"Definition.h"
+	<complex>
+
+1523715856 source:d:\ninjattack\src\definition.cpp
+	"Definition.h"
+	<iostream>
+
+1523715856 source:d:\ninjattack\src\definitionsdl.cpp
+	<SDL2/SDL.h>
+	"DefinitionSDL.h"
+	"Definition.h"
+	<iostream>
+
+1523715856 d:\ninjattack\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\begin_code.h
+
+1523715856 d:\ninjattack\include\sdl2\close_code.h
+
+1523715856 d:\ninjattack\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\src\definitionsdl.h
+	<chrono>
+
+1523715856 source:d:\ninjattack\src\entite.cpp
+	"Entite.h"
+	<time.h>
+	<iostream>
+
+1523715856 d:\ninjattack\src\entite.h
+	"Definition.h"
+	"Hitbox.h"
+
+1523715856 source:d:\ninjattack\src\hitbox.cpp
+	"Hitbox.h"
+	<math.h>
+
+1523718253 source:d:\ninjattack\src\jeu.cpp
+	<cassert>
+	"Jeu.h"
+	<algorithm>
+	<fstream>
+
+1523717172 d:\ninjattack\src\jeu.h
+	"Definition.h"
+	"Carte.h"
+	"Personnage/Personnage.h"
+	"Personnage/Hero.h"
+	"Personnage/Tortue.h"
+	"Personnage/Requin.h"
+	"Personnage/Aigle.h"
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"Sprit.h"
+	"DefinitionSDL.h"
+
+1523715856 d:\ninjattack\src\personnage\personnage.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Sort/Sort.h"
+	"../Sort/ShurikenTroisCoups.h"
+	"../Sort/ShurikenShotGun.h"
+	"../Sort/DashHero.h"
+	"../Sort/Contact.h"
+	"../Sort/Dash.h"
+	"../Sort/Tir.h"
+	"../Carte.h"
+	<vector>
+
+1523715856 d:\ninjattack\src\sort\sort.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Carte.h"
+	<vector>
+	<complex>
+
+1523715856 d:\ninjattack\src\sort\shurikentroiscoups.h
+	"Sort.h"
+
+1523715856 d:\ninjattack\src\sort\shurikenshotgun.h
+	"Sort.h"
+
+1523715856 d:\ninjattack\src\sort\dashhero.h
+	"Sort.h"
+
+1523715856 d:\ninjattack\src\sort\contact.h
+	"Sort.h"
+
+1523715856 d:\ninjattack\src\sort\dash.h
+	"Sort.h"
+
+1523715856 d:\ninjattack\src\sort\tir.h
+	"Sort.h"
+
+1523715856 d:\ninjattack\src\personnage\hero.h
+	"Personnage.h"
+
+1523715856 d:\ninjattack\src\personnage\tortue.h
+	"Personnage.h"
+
+1523715856 d:\ninjattack\src\personnage\requin.h
+	"Personnage.h"
+
+1523715856 d:\ninjattack\src\personnage\aigle.h
+	"Personnage.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523715856 d:\ninjattack\src\sprit.h
+	"Definition.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<complex>
+
+1523715856 source:d:\ninjattack\src\main.cpp
+	<SDL2/SDL_ttf.h>
+	<iostream>
+	"Jeu.h"
+	<chrono>
+
+1523715856 source:d:\ninjattack\src\personnage\aigle.cpp
+	"Aigle.h"
+	"../Carte.h"
+
+1523715856 source:d:\ninjattack\src\personnage\hero.cpp
+	"Hero.h"
+	"../Carte.h"
+
+1523715856 source:d:\ninjattack\src\personnage\personnage.cpp
+	"Personnage.h"
+	"../Carte.h"
+	<cassert>
+	<time.h>
+
+1523715856 source:d:\ninjattack\src\personnage\requin.cpp
+	"Requin.h"
+	"../Carte.h"
+
+1523715856 source:d:\ninjattack\src\personnage\tortue.cpp
+	"Tortue.h"
+	"../Carte.h"
+
+1523715856 source:d:\ninjattack\src\sort\contact.cpp
+	"Contact.h"
+	<math.h>
+	<stdlib.h>
+
+1523715856 source:d:\ninjattack\src\sort\dash.cpp
+	"Dash.h"
+	<math.h>
+	<stdlib.h>
+
+1523715856 source:d:\ninjattack\src\sort\dashhero.cpp
+	"DashHero.h"
+	<math.h>
+	<stdlib.h>
+
+1523715856 source:d:\ninjattack\src\sort\shurikenshotgun.cpp
+	"ShurikenShotGun.h"
+	<math.h>
+	<stdlib.h>
+
+1523715856 source:d:\ninjattack\src\sort\shurikentroiscoups.cpp
+	"ShurikenTroisCoups.h"
+	<math.h>
+	<stdlib.h>
+
+1523715856 source:d:\ninjattack\src\sort\sort.cpp
+	"Sort.h"
+	<math.h>
+	<stdlib.h>
+
+1523715856 source:d:\ninjattack\src\sort\tir.cpp
+	"Tir.h"
+	<math.h>
+	<stdlib.h>
+
+1523715856 source:d:\ninjattack\src\sprit.cpp
+	"Sprit.h"
+
+1523715856 source:d:\ninjattack\src\wintxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1523715856 d:\ninjattack\src\wintxt.h
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\carte.h
+	"Definition.h"
+	"Hitbox.h"
+	<string>
+	<vector>
+	<complex>
+	<iostream>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\definition.h
+	<chrono>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\definitionsdl.h
+	<chrono>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\entite.h
+	"Definition.h"
+	"Hitbox.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\hitbox.h
+	"Definition.h"
+	<complex>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\personnage\aigle.h
+	"Personnage.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\personnage\hero.h
+	"Personnage.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\personnage\personnage.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Sort/Sort.h"
+	"../Sort/ShurikenTroisCoups.h"
+	"../Sort/ShurikenShotGun.h"
+	"../Sort/DashHero.h"
+	"../Sort/Contact.h"
+	"../Sort/Dash.h"
+	"../Sort/Tir.h"
+	"../Carte.h"
+	<vector>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\personnage\requin.h
+	"Personnage.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\personnage\tortue.h
+	"Personnage.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\sort\contact.h
+	"Sort.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\sort\dash.h
+	"Sort.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\sort\dashhero.h
+	"Sort.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\sort\shurikenshotgun.h
+	"Sort.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\sort\shurikentroiscoups.h
+	"Sort.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\sort\sort.h
+	"../Definition.h"
+	"../Entite.h"
+	"../Carte.h"
+	<vector>
+	<complex>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\sort\tir.h
+	"Sort.h"
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\sprit.h
+	"Definition.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<complex>
+
+1523558619 source:d:\users\furet\desktop\ninjattack\src\wintxt.h
+
+1524258981 source:d:\users\furet\desktop\ninjattack\src\jeu.h
+	"Definition.h"
+	"Carte.h"
+	"Personnage/Personnage.h"
+	"Personnage/Hero.h"
+	"Personnage/Tortue.h"
+	"Personnage/Requin.h"
+	"Personnage/Aigle.h"
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"Sprit.h"
+	"DefinitionSDL.h"
+
+1524413107 d:\users\furet\desktop\ninjattack\src\sprite.h
+	"Definition.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<complex>
+
+1524415847 source:d:\users\furet\desktop\ninjattack\src\sprite.cpp
+	"Sprite.h"
+
+1524484591 source:w:\ninjattack\src\sprite.cpp
+	"Sprite.h"
+
+1524484591 w:\ninjattack\src\sprite.h
+	"Definition.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<complex>
+
+1524480990 /home/etu/p1608591/Ninjattack/include/SDL2/SDL_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1524480991 /home/etu/p1608591/Ninjattack/src/Sprite.h
+	"Definition.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<complex>
+
+1524480991 source:/home/etu/p1608591/Ninjattack/src/Sprite.cpp
+	"Sprite.h"
+
+1524484592 source:w:\ninjattack\src\mainnonsdl.cpp
+	"Jeu.h"
+	<chrono>
+
